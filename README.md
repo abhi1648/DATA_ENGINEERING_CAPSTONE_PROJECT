@@ -132,7 +132,7 @@ In this second part of the assignment, you will perform a couple of exercises. B
 In the second exercise, you will query the loaded data by creating a grouping sets query, rollup query, and cube query using the columns Orderid*, Category, and Price collected. Finally, you will create an MQT named Total_sales_per_country using the country and total sales columns. After performing each task, you will take a screenshot of the SQL and the output rows and then name the screenshot.
 
 The design of the warehouse through the ERP tool in pgadmin is as following:
-![](https://github.com/fadialsalti/data_engineering_capstone_project/blob/main/all_files/warehouse2.png)
+![](https://github.com/abhi1648/DATA_ENGINEERING_CAPSTONE_PROJECT/blob/main/DOCUMENTS/warehouse2.png)
 
 After loading the data into db2 on IBM cloud, I solved the following tasks:
 
@@ -239,9 +239,9 @@ Task 1 - Define the DAG arguments.
 ```python
 #defining DAG arguments
 default_args = {
-    'owner': 'Fadi Alsalti',
+    'owner': 'Abhishek Kumar Singh',
     'start_date': days_ago(0),
-    'email': ['fadi.alsalti@gmail.com'],
+    'email': ['a16an13@gmail.com'],
     'email_on_failure': True,
     'email_on_retry': True,
     'retries': 1,
