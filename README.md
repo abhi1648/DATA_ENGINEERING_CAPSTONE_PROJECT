@@ -1,4 +1,4 @@
-# Data Engineering Capstone Project
+# Data Engineering Capstone Project by Abhishek Kumar Singh
 This is the seven weeks project to finish the IBM Data Engineering Professional Certificate. In this Capstone project, I will:
 - Collect and understand data from multiple sources.
 - Design a database and data warehouse.
@@ -10,18 +10,37 @@ This Capstone provides you with practical hands-on experience to demonstrate
 
 As part of the capstone project, you will assume the role of an Associate Data Engineer who has recently joined the organization. You will be presented with a business challenge that requires building a data platform for retailer data analytics.<br>
 
-In Module 1 you will design the OLTP database for an E-Commerce website, populate the OLTP Database with the provided data, and automate the export of the daily incremental data into the data warehouse.<br>
+ ### Module 1: E-Commerce OLTP Database Design and Automation
+- Design the OLTP database schema for an E-Commerce website.
+- Populate the OLTP database with provided data.
+- Automate the export of daily incremental data into the data warehouse.
 
-In Module 2 you will set up a NoSQL database to store the catalog data for an E-Commerce website, load the E-Commerce catalog data into the NoSQL database, and query the E-Commerce catalog data in the NoSQL database.<br>
+### Module 2: NoSQL Database Setup and Querying
+- Set up a NoSQL database for storing E-Commerce catalog data.
+- Import JSON file into MongoDB.
+- Query catalog data for insights.
 
-In Module 3 you will design the schema for a data warehouse based on the schema of the OLTP and NoSQL databases. You’ll then create the schema and load the data into fact and dimension tables,automate the daily incremental data insertion into the data warehouse, and create Cubes and Rollups to make the reporting easier.<br>
+### Module 3: Data Warehouse Design and Loading
+- Design a data warehouse schema based on OLTP and NoSQL databases.
+- Create and load fact and dimension tables.
+- Implement daily incremental data insertion and create Cubes/Rollups for reporting.
 
-In Module 4 you will create a Cognos data source that points to a data warehouse table, create a bar chart of Quarterly sales of cell phones, create a pie chart of sales of electronic goods by category, andcreate a line chart of total sales per month for the year 2020. <br>
+### Module 4: Dashboard Creation with Cognos Analytics
+- Connect Cognos to the data warehouse.
+- Create visualizations: Quarterly sales bar chart, electronic goods pie chart, and 2020 monthly sales line chart.
 
-In Module 5 you will extract data from OLTP, NoSQL, and MongoDB databases into CSV format. You will then transform the OLTP data to suit the data warehouse schema, and then load the transformed data into the data warehouse. Finally, you will verify that the data is loaded properly.<br>
+### Module 5: ETL Processes and Data Verification
+- Extract data from OLTP, NoSQL, and MongoDB into CSV.
+- Transform OLTP data to match the data warehouse schema.
+- Load transformed data and verify proper data loading.
 
-In the sixth and final module you will use your skills in Big Data Analytics to create a Spark connection to the data warehouse, and then deploy a machine learning model on SparkML for making sales projections.<br>
+### Module 6: Apache Spark and Machine Learning
+- Connect Spark to the data warehouse.
+- Deploy a SparkML machine learning model for sales projections.
 
+### Module 7: Apache Airflow and Data Synchronization
+- Create an Airflow DAG for daily data extraction and transformation.
+- Synchronize data between OLTP and the data warehouse.
 ## Architecture
 
 ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0321EN-SkillsNetwork/Readings/data_platform_architecture.png)
